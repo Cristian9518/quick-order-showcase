@@ -73,18 +73,59 @@ flowchart TD
 
 Utilicé **OpenCode, Codex y Claude Code** como parte de un flujo de orquestación de agentes de IA para explorar implementaciones, generar cambios, depurar, revisar y mejorar componentes. Las decisiones de arquitectura, integración y validación forman parte del proceso de ingeniería; no atribuyo funcionalidades individuales a una herramienta específica.
 
-## Capturas del proyecto
+## Galería del proyecto
 
-Las capturas se añadirán tras revisar que no incluyan datos de clientes ni información sensible.
+Capturas de la aplicación integrada en el administrador de Shopify. Muestran las herramientas de configuración, el proceso de compra y las integraciones de la solución.
 
-| Vista | Estado |
-| --- | --- |
-| Constructor visual | Pendiente |
-| Ofertas por cantidad | Pendiente |
-| Checkout contraentrega | Pendiente |
-| Widget flotante | Pendiente |
-| Carritos abandonados | Pendiente |
-| Webhooks y automatizaciones | Pendiente |
+### 1. Panel de la aplicación
+
+![Panel de Quick Order en Shopify](01-panel-app.jpg)
+
+Vista de acceso a ofertas, carritos abandonados, integraciones y configuración.
+
+### 2. Gestión de ofertas
+
+![Listado de ofertas configuradas](02-ofertas.jpg)
+
+Administración de ofertas por producto y acceso a las acciones de edición y duplicación.
+
+### 3. Constructor visual
+
+![Editor visual de formularios Quick Order](07-constructor.jpg)
+
+Editor de la experiencia de compra con previsualización del resultado y controles de personalización.
+
+### 4. Ofertas por cantidad
+
+![Configuración de ofertas por cantidad](06-ofertas-cantidad.jpg)
+
+Configuración de opciones de compra, precios, beneficios y orden de presentación.
+
+### 5. Checkout contraentrega
+
+<img src="08-checkout-cod.jpg" alt="Formulario de compra contraentrega en la tienda" width="420">
+
+Experiencia de compra para el cliente final, con selección de oferta y captura de datos de entrega.
+
+### 6. Carritos abandonados
+
+![Panel de recuperación de carritos abandonados](03-carritos-abandonados.jpg)
+
+Panel para consultar intentos de compra no finalizados y su estado.
+
+### 7. Webhooks e integraciones
+
+![Integraciones y eventos de Quick Order](04-webhooks.jpg)
+
+Configuración de webhooks para enviar eventos de intención, abandono y conversión a sistemas externos.
+
+### 8. Cobertura geográfica en Colombia
+
+![Configuración de departamentos y municipios](05-cobertura-colombia.jpg)
+
+Selección de departamentos y municipios habilitados para aceptar pedidos.
+
+> Algunas pantallas reflejan configuraciones y datos de una operación comercial de demostración; no representan métricas generales de rendimiento del producto.
 
 ## Relación con otros sistemas
 
